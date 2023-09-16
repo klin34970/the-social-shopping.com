@@ -1,0 +1,43 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use App;
+use Config;
+use Session;
+
+class Locale
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
+     * @return mixed
+     */
+    public function handle($request, Closure $next)
+    {
+		$raw_locale = Session::get('locale');
+
+		if(in_array($raw_locale, Config::get('app.locales'))) 
+		{
+			$locale = $raw_locale;
+		}
+		else 
+		{
+			$brownser_locale = substr($request->server('HTTP_ACCEPT_LANGUAGE'), 0, 2);
+			if(in_array($brownser_locale, Config::get('app.locales'))) 
+			{
+				$locale = $brownser_locale;
+			}
+			else
+			{
+				$locale = Config::get('app.locale');
+			}
+			
+		}
+		App::setLocale($locale);
+		return $next($request);
+    }
+}

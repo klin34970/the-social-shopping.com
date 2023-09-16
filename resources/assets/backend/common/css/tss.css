@@ -1,0 +1,246 @@
+table.vertical-middle tr td {
+	vertical-align:middle!important;
+}
+.width-50{
+	width:50px!important;
+}
+.has-error .input-group-addon {
+    color: #a94442 !important;
+    background-color: #f2dede !important;
+    border-color: #a94442!important;
+}
+.has-error .form-control {
+    border-color: #a94442 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #a94442 !important;
+}
+.intl-tel-input.allow-dropdown,
+.country-select.inside{
+	width:100%
+}
+
+.cui-wizard .country-select .country-list{
+	margin: -237px 0px 0px -1px;
+}
+.wizard > .content > .body ul > li {
+    list-style: none !important;
+}
+span.label.label-info.label-many {
+    margin-bottom: 5px;
+}
+
+/* 1 => 'Payment accepted', */
+/* 2 => 'In preparation', */
+/* 3 => 'Shipped', */
+/* 4 => 'Delivered', */
+/* 5 => 'Canceled', */
+/* 6 => 'Reimbursed', */
+/* 7 => 'Payment error', */
+
+/*green*/
+.label-order-1{
+	background: #46be8a;
+	color:#fff;
+}
+/*grey*/
+.label-order-2{
+	background: #acb7bf;
+	color:#fff;
+}
+
+/*blue*/
+.label-order-3{
+	background: #01a8fe;
+	color:#fff;
+}
+.label-order-4{
+	background: #01a8fe;
+	color:#fff;
+}
+
+/*yellow*/
+.label-order-6{
+	background: #f39834;
+	color:#fff;
+}
+
+/*red*/
+.label-order-5{
+	background: #fb434a;
+	color:#fff;
+}
+.label-order-7{
+	background: #fb434a;
+	color:#fff;
+}
+
+
+
+
+
+
+@media (max-width: 991px){
+	.cui-wizard .steps ul{
+		display:none;
+	}
+}
+
+.cwt__header-fixed {
+    padding: 0.625rem 0 0.625rem 0;
+}
+
+.cwt__footer__company {
+    display: inline-block!important;
+}
+
+.cwt__logo--small2 {
+    width: 100%;
+	margin: 0.1875rem 0 0;
+}
+
+.shoplogo{
+	color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.bg-white {
+	background:#fff;
+}
+
+.bg-grey{
+	background: #eceff4;
+}
+
+body.shop .cwt__utils__p-t-100 {
+    padding-top: 1.25rem;
+    margin-top: 4.5rem;
+}
+.cui-ecommerce--product--controls .form-group{
+	color: #827ca1;
+}
+.cui-ecommerce--product--info .nav-link,
+.cui-ecommerce--product--info .tab-pane{
+	color: #827ca1 !important;
+}
+.cui-ecommerce--catalog--item--status{
+	z-index: 9;
+}
+.cui-ecommerce--catalog--item--status--title {
+    top: -8px;
+    left: -20px;
+    font-size: 14px;
+}
+span.promo {
+    font-size: 15px;
+    top: -4px;
+    display: inline-block;
+    position: relative;
+    color: #ff4143;
+}
+.cui-ecommerce--catalog--item--descr--sizes {
+    height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 10px;
+}
+.cui-ecommerce--catalog--item--title,
+.cui-ecommerce--catalog--item--descr {
+    color: #514d6a;
+}
+
+
+#features #features-inputs li.ui-state-default {
+	border: 2px dashed #e2e8ee;
+    list-style: none;
+    padding: 2rem 10px 0px 10px;
+    margin-top: 10px;
+}
+#features #features-inputs li .process {
+    position: absolute;
+    right: 0;
+}
+
+#features #features-inputs li .btn {
+    position: relative;
+    right: 30px;
+    font-size: 10px;
+    top: -25px;
+    margin: 0;
+    padding: 0 5px;
+	margin-left: 5px;
+}
+
+#attributes #attributes-inputs li.ui-state-default {
+	border: 2px dashed #e2e8ee;
+    list-style: none;
+    padding: 2rem 10px 0px 10px;
+    margin-top: 10px;
+}
+#attributes #attributes-inputs li .process,
+#attributes #attributes-inputs li .process-attributes,
+#attributes #attributes-inputs li .process-attributes-values {
+    position: absolute;
+    right: 0;
+}
+#attributes #attributes-inputs li .process .btn,
+#attributes #attributes-inputs li .process-attributes .btn,
+#attributes #attributes-inputs li .process-attributes-values .btn {
+    position: relative;
+    right: 30px;
+    font-size: 10px;
+    top: -25px;
+    margin: 0;
+    padding: 0 5px;
+	margin-left: 5px;
+}
+
+
+div#attributes-values {
+    margin-bottom: 25px;
+}
+div#attributes-values .pull-right .btn{
+	padding: 0px 5px;
+	margin: 0;
+}
+/* #attributes-values #attributes-values-inputs li .process { */
+    /* position: absolute; */
+    /* left: 95px; */
+/* } */
+
+ul#sortable,
+ul#sortable-attributes,
+ul#sortable-attributes-values {
+    padding: 0;
+}
+
+
+.form-group-variants{
+	width:100%;
+}
+.form-group-variants .form-control{
+	width:auto;
+}
+
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+	background-color: white;
+	padding: 8px 12px;
+	border-radius: 4px;
+	border: 1px solid rgb(217, 217, 217);
+	margin-bottom: 15px;
+}
+.StripeElement--focus {
+}
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}

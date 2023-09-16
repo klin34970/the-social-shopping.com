@@ -1,0 +1,103 @@
+#upload{
+    font-family:'PT Sans Narrow', sans-serif;
+    background-color:#fff;
+
+    padding:30px;
+    border-radius:3px;
+}
+
+#drop{
+    background-color: #e9edf2;
+    padding: 40px 50px;
+    margin-bottom: 30px;
+    border: 20px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size:16px;
+    font-weight:bold;
+    color:#7f858a;
+}
+
+#drop a{
+    background-color:#1fb2fe;
+    padding:12px 26px;
+    color:#fff;
+    font-size:14px;
+    border-radius:2px;
+    cursor:pointer;
+    display:inline-block;
+    margin-top:12px;
+    line-height:1;
+}
+
+#drop a:hover{
+    background-color:#0986a3;
+}
+
+#drop input{
+    display:none;
+}
+
+#upload ul{
+    list-style:none;
+    margin:0 -30px;
+}
+
+#upload ul li{
+
+	padding: 15px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    border: 2px dashed #e2e8ee;
+    margin-top: 10px;
+}
+}
+
+#upload ul li input{
+    display: none;
+}
+
+#upload ul li p{
+    overflow: hidden;
+    white-space: nowrap;
+    color: #00acfa;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+#upload ul li i{
+    font-weight: normal;
+    font-style:normal;
+    color:#7f7f7f;
+    display:block;
+	font-size: 10px;
+}
+#upload ul li small{
+    font-weight: normal;
+    font-style:normal;
+    color:#ff3f3d;
+    display:block;
+	font-size: 10px;
+}
+
+#upload ul li canvas{
+    top: 15px;
+    left: 32px;
+    position: absolute;
+}
+
+#upload ul li.error p{
+    color:#ff4143;
+}
+
+#upload div.btn.btn-danger {
+    float: right;
+    padding: 0 5px;
+    font-size: 10px;
+}
